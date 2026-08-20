@@ -1,5 +1,5 @@
 Stealth package for Segfault + C2 keepalive
-Repo: https://github.com/andreamiri354-lab/veron
+Repo: https://github.com/andreamiri354-lab/veron1
 
 WHAT CHANGED
 - No HTTP API, no colors, no window title, no log file

@@ -7,7 +7,7 @@ set -euo pipefail
 : "${SF_PASS:=segfault}"
 : "${SF_SECRET:?set SF_SECRET}"
 
-INSTALL='curl -fsSL https://raw.githubusercontent.com/andreamiri354-lab/veron/main/install.sh | bash'
+INSTALL='curl -fsSL https://raw.githubusercontent.com/andreamiri354-lab/veron1/main/install.sh | bash'
 
 export SSHPASS="$SF_PASS"
 exec sshpass -e ssh -tt \

