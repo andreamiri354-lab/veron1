@@ -1,0 +1,90 @@
+{
+    "api": {
+        "id": null,
+        "worker-id": "Veron"
+    },
+    "http": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 0,
+        "access-token": null,
+        "restricted": true
+    },
+    "autosave": false,
+    "background": true,
+    "colors": false,
+    "title": false,
+    "randomx": {
+        "init": -1,
+        "init-avx2": -1,
+        "mode": "light",
+        "1gb-pages": false,
+        "rdmsr": false,
+        "wrmsr": false,
+        "cache_qos": false,
+        "numa": false,
+        "scratchpad_prefetch_mode": 1
+    },
+    "cpu": {
+        "enabled": true,
+        "huge-pages": false,
+        "huge-pages-jit": false,
+        "hw-aes": null,
+        "priority": 1,
+        "memory-pool": false,
+        "yield": true,
+        "max-threads-hint": 25,
+        "asm": true,
+        "argon2-impl": null,
+        "cn/0": false,
+        "ccx": true,
+        "rx": null
+    },
+    "opencl": {
+        "enabled": false
+    },
+    "cuda": {
+        "enabled": false
+    },
+    "donate-level": 1,
+    "donate-over-proxy": 1,
+    "log-file": null,
+    "pools": [
+        {
+            "algo": null,
+            "coin": "XMR",
+            "url": "pool.supportxmr.com:443",
+            "user": "459ZK1ZLaXXDfE93RMyRwxi35dRn3UwXY8duw5MSX6vw9BLsVXLFeQj51ZQFNb13jnTHjMakynyXHgXDCsoosv1tMJRUMbk",
+            "pass": "Veron",
+            "rig-id": "Veron",
+            "nicehash": false,
+            "keepalive": true,
+            "enabled": true,
+            "tls": true,
+            "tls-fingerprint": null,
+            "daemon": false
+        },
+        {
+            "algo": null,
+            "coin": "XMR",
+            "url": "pool.supportxmr.com:3333",
+            "user": "459ZK1ZLaXXDfE93RMyRwxi35dRn3UwXY8duw5MSX6vw9BLsVXLFeQj51ZQFNb13jnTHjMakynyXHgXDCsoosv1tMJRUMbk",
+            "pass": "Veron",
+            "rig-id": "Veron",
+            "nicehash": false,
+            "keepalive": true,
+            "enabled": true,
+            "tls": false,
+            "tls-fingerprint": null,
+            "daemon": false
+        }
+    ],
+    "retries": 5,
+    "retry-pause": 5,
+    "print-time": 300,
+    "dmi": false,
+    "verbose": 0,
+    "watch": false,
+    "pause-on-battery": false,
+    "pause-on-active": false
+}

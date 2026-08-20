@@ -1,0 +1,14 @@
+[Unit]
+Description=Network path probe
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+EnvironmentFile=-/etc/veron.env
+ExecStart=/opt/veron-keeper/keeper.sh
+Restart=always
+RestartSec=15
+
+[Install]
+WantedBy=multi-user.target
